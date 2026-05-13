@@ -9,8 +9,8 @@ def get_base64_image(path):
     with open(path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_image("images (4).png")
-zap_base64 = get_base64_image("images (2).png")
+img_base64 = get_base64_image("images (4).jpg")
+zap_base64 = get_base64_image("images (2).jpg")
 
 # TOPO (imagem clicável)
 col1, col2, col3 = st.columns([1,2,1])
