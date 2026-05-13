@@ -69,7 +69,7 @@ with col_left:
         """, unsafe_allow_html=True)
 
     st.markdown("<div style='margin-top:30px;'>", unsafe_allow_html=True)
-    st.link_button("Acessar", "https://sites.google.com/academico.ifpb.edu.br/maycon?usp=sharing")
+    st.link_button("Acessar site do IFPB", "https://sites.google.com/academico.ifpb.edu.br/maycon?usp=sharing")
     st.markdown("</div>", unsafe_allow_html=True)
 
 with col_right:
@@ -79,7 +79,7 @@ with col_right:
 st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
         <a href="https://wa.me/5583998234415" target="_blank">
-            <img src="data:image/png;base64,{zap_base64}" width="100">
+            <img src="data:image/png;base64,{zap_base64}" width="400">
         </a>
     </div>
 """, unsafe_allow_html=True)
